@@ -1,0 +1,6 @@
+opencv-python # or opencv-python-headless
+numpy
+streamlit==1.10.0
+matplotlib
+tensorflow
+streamlit-drawable-canvas==0.9.1
