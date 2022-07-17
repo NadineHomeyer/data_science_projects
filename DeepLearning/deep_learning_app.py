@@ -8,8 +8,6 @@ from streamlit_drawable_canvas import st_canvas # https://github.com/andfanilo/s
 
 # Definze image size
 SIZE = 192
-# Style the page
-st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 # Text on page
 st.title('Digit Recognizer')
@@ -20,6 +18,7 @@ st.write('The dataset is widely used for training deep learning models in the co
 st.write('The implemented model is a CNN-based, classification model determining the likelihood that a drawn.')
 st.write('belongs is one of the ten digits 0-9. For the MNIST test set the model showed an accuracy (fraction')
 st.write('of correctly classfied digits) of 99.1%. For details and source code see:')
+st.write('https://github.com/NadineHomeyer/data_science_projects/tree/main/DeepLearning')
 st.write('')
 st.write('The canvas used for providing the drawing functionality on this page originates from: https://github.com/andfanilo/streamlit-drawable-canvas ')
 
