@@ -1,4 +1,4 @@
-opencv-python # or opencv-python-headless
+opencv-python-headless
 numpy
 streamlit==1.10.0
 matplotlib
