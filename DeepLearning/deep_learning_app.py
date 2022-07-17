@@ -8,8 +8,6 @@ from streamlit_drawable_canvas import st_canvas # https://github.com/andfanilo/s
 
 # Definze image size
 SIZE = 192
-# Load trained model
-model = load_model('DeepLearning/digit_classification/digit_classification_model.h5')
 # Style the page
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
@@ -50,6 +48,8 @@ if canvas_result.image_data is not None:
     st.image(rescaled)
 
 if st.button('Predict'):
+    # Load trained model
+    model = load_model('DeepLearning/digit_classification/digit_classification_model.h5')
     # Convert BGR colored image to grayscale image
     # Necessary since the MNIST dataset used for
     # model training contains only grayscale images
