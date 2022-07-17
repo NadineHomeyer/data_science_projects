@@ -9,7 +9,7 @@ from streamlit_drawable_canvas import st_canvas # https://github.com/andfanilo/s
 # Definze image size
 SIZE = 192
 # Load trained model
-model = load_model('digit_classification/digit_classification_model.h5')
+model = load_model('DeepLearning/digit_classification/digit_classification_model.h5')
 # Style the page
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
