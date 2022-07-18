@@ -11,14 +11,14 @@ SIZE = 192
 
 # Text on page
 st.title('Digit Recognizer')
-st.write('This digit recognizer is based on a convolution neuronal network model built based on the MNIST dataset.')
-st.write('The MNIST training dataset from the Modified National Institute of Standards and Technology consists of')
-st.write('60,000  28x20 pixel grayscale images with handwritten digits in the range 0-9 and the corresponding labels.')
-st.write('The dataset is widely used for training deep learning models in the context of image recognition.')
-st.write('The implemented model is a CNN-based, classification model determining the likelihood that a drawn.')
-st.write('belongs is one of the ten digits 0-9. For the MNIST test set the model showed an accuracy (fraction')
-st.write('of correctly classfied digits) of 99.1%. For details and source code see:')
-st.write('https://github.com/NadineHomeyer/data_science_projects/tree/main/DeepLearning')
+st.write("""This digit recognizer is based on a convolution neuronal network model built based on the MNIST dataset.
+The MNIST training dataset from the Modified National Institute of Standards and Technology consists of
+60,000  28x20 pixel grayscale images with handwritten digits in the range 0-9 and the corresponding labels.
+The dataset is widely used for training deep learning models in the context of image recognition.
+The implemented model is a CNN-based, classification model determining the likelihood that a drawn.
+belongs is one of the ten digits 0-9. For the MNIST test set the model showed an accuracy (fraction)
+of correctly classfied digits) of 99.1%. For details and source code see:
+https://github.com/NadineHomeyer/data_science_projects/tree/main/DeepLearning""")
 st.write('')
 st.write('The canvas used for providing the drawing functionality on this page originates from: https://github.com/andfanilo/streamlit-drawable-canvas ')
 
