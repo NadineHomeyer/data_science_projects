@@ -8,5 +8,5 @@ The Digit Recognizer is available online: https://nadinehomeyer-data-sci-digitre
 - 
 # 2. Visual Analaysis & Animation of Gapminer data
 <b>AnimatedVisualAnalysis</b>: Data exploration and creation of an animated scatter plots in analogy to the ones from presentation of Hans Rosling (https://youtu.be/jbkSRLYSojo)<br>
-<b>Tools stack</b>: Python (Pandas, NumPy, Matplotlib, Seaborn, ImageIO)
+<b>Tools stack</b>: Python (Pandas, NumPy, Matplotlib, Seaborn, ImageIO)<br>
 <b>Data Source</b>: https://www.gapminder.org
