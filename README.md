@@ -13,6 +13,6 @@ The Digit Recognizer is available online: https://nadinehomeyer-data-sci-digitre
 
 ## 3. Machine Learning - Classification
 <b>MLclassification</b> Development of a machine learning model for predicting passenger survival on the Titanic<br>
-<b>Methods</b>: Logistric Regression, Random Forest
+<b>Methods</b>: Logistric Regression, Random Forest<br>
 <b>Tools stack</b>: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)<br>
 <b> Data Source</b>: https://www.kaggle.com/c/titanic
