@@ -48,7 +48,7 @@ if canvas_result.image_data is not None:
 
 if st.button('Predict'):
     # Load trained model
-    model = load_model('DeepLearning/digit_classification/digit_classification_model.h5')
+    model = load_model('DigitRecognition/digit_classification/digit_classification_model.h5')
     # Convert BGR colored image to grayscale image
     # Necessary since the MNIST dataset used for
     # model training contains only grayscale images
